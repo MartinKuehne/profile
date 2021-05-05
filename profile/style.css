@@ -1,0 +1,101 @@
+body {
+  font-family: 'Karla';
+  font-weight: 300;
+  background-color: #FAF9F6;
+  color: #333333;
+}
+
+h1 {
+  font-family: 'Spectral';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: 'Karla';
+  font-weight: 500;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0ac6cc;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 5px 5px 30px rgb(0 0 0 / 3%);
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a#homepage {
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px #333333;
+  border-radius: 5px;
+}
+
+a#homepage:hover {
+  border: solid 1px #0ac6cc;
+}
+
+@media (max-width: 2200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1100px;
+  }
+}
+@media (max-width: 1600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
